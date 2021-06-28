@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_Search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-8" transform="translate(-599.000000, -32.000000)">
+            <g id="ic_Search" transform="translate(596.000000, 29.000000)">
+                <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                <path d="M21.00792,20.015795 C21.3316,20.355743 21.33126,20.906111 21.00702,21.245681 L20.9477,21.307841 C20.6238,21.646823 20.09998,21.646823 19.7762,21.307841 L15.57122,16.887719 C14.26296,18.117206 12.54228,18.872198 10.65268,18.872198 C6.57768,18.872198 3.26208,15.39086 3.26208,11.111648 C3.26208,6.832625 6.57768,3.351455 10.65268,3.351455 C14.7277,3.351455 18.04328,6.832625 18.04328,11.111648 C18.04328,12.749039 17.55502,14.267339 16.72722,15.520766 L21.00792,20.015795 Z M4.54748,11.111648 C4.54748,14.646662 7.28626,17.522444 10.65268,17.522444 C14.01912,17.522444 16.75802,14.646662 16.75802,11.111648 C16.75802,7.576613 14.01912,4.701041 10.65268,4.701041 C7.28626,4.701041 4.54748,7.576613 4.54748,11.111648 Z" id="Combined-shape-1745" fill="#606D7A"></path>
+            </g>
+        </g>
+    </g>
+</svg>

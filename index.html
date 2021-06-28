@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Welcome Page</title>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<header class="glb_head">
+	<div class="container-fluid p-0">
+		<div class="row">
+			<div class="col-6">
+				<strong class="logo" title="Front End Developer">
+						Ahsan Nawaz
+					<!-- <img src="images/logo.png" class="img-fluid"> -->
+				</strong>
+			</div>
+			<div class="col-6 text-right">
+				<div class="right_column ml-auto">
+					<ul class="list-inline lang_list">
+						<li class="list-inline-item selected"><a href="signin.html" class="login text-capitalize text-decoration-none">Sign In</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<div class="container-fluid p-0 glb_page">
+	<div class="row no-gutters gridWrap">
+		<div class="col-lg-3 col-md-6 col-12 column">
+			<div class="background bg_theApp">
+				<img src="images/img_TheApp_Foreground.png" class="img-fluid d-block">
+			</div>
+			<div class="columnHolder">
+				<div class="text_holder">
+					<span class="columnTitle text-uppercase">The App</span>
+					<p class="info transition_all_3s">Save a fortune with the ultimate<br> lifestyle App.</p>
+					<div class="btn_wrap">
+						<a href="#" class="btn btn-primary text-uppercase">Start Exploring</a>
+					</div>
+				</div>
+				<div class="btn_holder transition_all_3s">
+					<a href="#" class="btn btn-primary text-uppercase">Start Exploring</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 col-12 column animation-right">
+			<div class="background bg_business">
+				<img src="images/img_Business_Foreground.png" class="img-fluid d-block">
+			</div>
+			<div class="columnHolder">
+				<div class="text_holder">
+					<span class="columnTitle text-uppercase">Business</span>
+					<p class="info transition_all_3s">Loyalty and rewards solutions for<br> businesses around the globe.</p>
+					<div class="btn_wrap">
+						<a href="#" class="btn btn-primary text-uppercase">Find Out More</a>
+					</div>
+				</div>
+				<div class="btn_holder transition_all_3s">
+					<a href="#" class="btn btn-primary text-uppercase">Find Out More</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 col-12 column">
+			<div class="background bg_travel">
+				<img src="images/img_Travel_Foreground.png" class="img-fluid d-block">
+			</div>
+			<div class="columnHolder">
+				<div class="text_holder">
+					<span class="columnTitle text-uppercase">Travel</span>
+					<p class="info transition_all_3s">Discover great deals at exciting<br> destinations all over the world.</p>
+					<div class="btn_wrap">
+						<a href="#" class="btn btn-primary text-uppercase">Take Me There</a>
+					</div>
+				</div>
+				<div class="btn_holder transition_all_3s">
+					<a href="#" class="btn btn-primary text-uppercase">Take Me There</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 col-12 column animation-right last">
+			<div class="background bg_ourPartners">
+				<img src="images/img_OurPartners_Foreground.png" class="img-fluid d-block">
+			</div>
+			<div class="columnHolder">
+				<div class="text_holder">
+					<span class="columnTitle text-uppercase">Our Partners</span>
+					<p class="info transition_all_3s">Join our family and reap the rewards.</p>
+					<p class="transition_all_3s fn_12">Interested in joining?</p>
+					<a href="#" class="btn btn-primary text-uppercase">Get In Touch</a>
+					<div class="btn_wrap">
+						<p><a href="#">Already a partner?</a></p>
+						<a href="signin.html" class="login text-uppercase">Sign In</a>
+					</div>
+				</div>
+				<div class="btn_holder transition_all_3s">
+					<p><a href="#">Already a partner?</a></p>
+					<a href="signin.html" class="login text-uppercase">Sign In</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="js/popper.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/my-script.js" type="text/javascript"></script>
+<!-- <script src="js/popper.min.js" type="text/javascript"></script> -->
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.glb_page .column').hover(function(){
+			$('.glb_page .column').removeClass('hover');
+			$(this).addClass('hover');
+		});
+		$('.last').hover(function() {
+			$('body').addClass('lng_color');
+		}, function() {
+			$('body').removeClass('lng_color');
+		});
+	});
+</script>
+
+</body>
+</html>
